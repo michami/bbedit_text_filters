@@ -11,3 +11,13 @@ These files can be placed in the text filters directory to add useful functional
 Don't forget to set the executable bit for the files:
 
 chmod +x *
+
+### unescapeString notes:
+
+the unescapeString filter will also remove all text outside the surrounding quotes, ie:
+
+String json = "Mick says, \\"hi\\"";
+
+will become:
+
+Mick says, "hi"
