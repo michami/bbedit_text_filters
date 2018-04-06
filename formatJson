@@ -1,0 +1,2 @@
+#!/bin/bash
+json_pp -f json
